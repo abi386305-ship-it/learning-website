@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>responsive webpage</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+  <!--header section start-->
+  <header class="header">
+    <nav class="navbar">
+       <a href="https://your-website-link.com">
+  <img src="image-tokens-bardstorage://RESPONSE_DATA:00063af7cc38da3d01ee9ce2ab0d40f10dc49bdb5c72506b:15890464418780398028e621243caddfc5e8:0:"
+       alt="Draxiva Logo"
+       style="max-width: 100%; height: auto;">
+</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">features</a></li>
+        <li><a href="#contanct">contact</a></li>
+      </ul>
+      <button class="menu-toggle">=</button>
+    </nav>
+  </header>
+   <!--header section end-->
+  
+  <!--Hero section start-->
+  <section id="home"class="hero">
+    <div class="hero-content">
+      <h1>welcom to my Education websit</h1>
+      <p>responsive websit for morden
+        web development</p>
+      <a href="" class="btn">learn more</a>
+    </div>
+  </section>
+   <!--Hero section end-->
+  
+  <!--features section start-->
+  <section id="features" class="features">
+    <h2>features</h2>
+    <div class="features-grid">
+      <div class="features-item 1">
+        <h3>1. 🧑‍🏫 Expert Instructors</h3>
+        <p>Real-time or pre-recorded lessons from experienced teachers.
+
+Profile section with bio, experience, and subjects handled.
+</p>
+      </div><br>
+     <div class="features-item 2">
+        <h3>2. 🎥 Live / Recorded Classes</h3>
+        <p>Zoom or YouTube integration.
+
+Option to replay recorded sessions.
+</p>        
+      </div><br>
+      <div class="features-item 3">
+        <h3>3. 📚 Course Library
+</h3>
+        <p>List of available courses with filters (e.g., subject, level, duration).</p>
+      </div><br>
+      <div>
+         <div class="features-item">
+        <h3>4. 📝 Online Assessments</h3>
+        <p>Quizzes, MCQs, and Assignments.Auto-evaluation & instant results</p>
+      </div>
+       <div><br>
+          <div class="features-item">
+        <h3>5. 🎓 Certification</h3>
+        <p>Downloadable certificate after course completion.
+QR code-based validation</p>
+      </div><br>
+       </div>
+          <div class="features-item">
+      <h3>6. 💬 Doubt Clearing / Live Chat/ </h3>
+      <p>Ask questions in forum or live chat with mentor.Telegram/WhatsApp group integration (optional).</p>
+      
+    </div><br>
+       <div class="features-item ">
+         
+      <h3>7. 📆 Timetable / Calendar</h3>  
+      <p>Daily/Weekly schedule view for enrolled courses.</p>      
+    </div>
+    </div>
+  </div>
+  
+  </section>
+  <!--features section end-->
+  
+  <!-- contanct section start-->
+  <section>
+    <h2>contanct us</h2>
+    <form action="contanctform">
+      <div class="form-group">
+        <label for="name">name</label>
+        <input type="text" name="" id="name"
+          placeholder="your name" required>
+      </div>
+      <div class="form-group">
+         <label for="">email</label>
+        <input type="email" name="" id="email"
+          placeholder="your email" required>
+      
+      </div>
+
+      </div>
+      <div class="form-group">
+        <label for="">message</label>
+        <textarea name="" id="message"
+          placeholder="your message" rows="5"> 
+        </textarea>
+        <button type="submit" class="btn">send message</button>
+      </div>
+    </form>
+  </section>
+   <!-- contanct section end-->
+  
+  <!--contact section start-->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>&copy;2025 Draxiva.All rights reserved.</p>
+      <div class="social-icons">
+        <a href="" target="_blank"class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="" target="_blank"class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+        <a href="" target="_blank"class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+        <a href="" target="_blank"class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!--contact section end-->
+  
+</body>
+</html>
+<style>
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family:arial,sans-serif;
+  line-height:1.5;
+  color:#333;
+}
+a{
+  text-decoration:none;
+  color: inherit;
+}
+header{
+  background:#333;
+  color:#fff;
+  padding: 5px 5px;
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  max-width:1200px;
+  margin:auto;
+}
+.nav-links{
+  display:flex;
+  list-style:none;
+}
+.nav-links li{
+  margin:0 15px;
+}
+ .nav-links a{
+   color:#fff;
+   font-weight:bold;
+   transition:color 0.3s;
+ }
+.nav-links a:hover{
+  color:#ff6347;
+}
+.menu-toggle{
+  display:none;
+  background:none;
+  border:none;
+  color:#fff;
+  font-size:1.5rem;
+  cursor:pointer;
+}
+.hero{
+  height:100vh;
+  background:linear-gradient(to right,#ff7e5f,#feb47b);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:#fff;
+  padding:0 20px;
+}
+.hero h1{
+  font-size:2rem;
+  margin-bottom:10px;
+}
+.hero p{
+  margin-bottom:20px;
+}
+.btn{
+  background:#333;
+  color:#fff;
+  padding:10px 20px;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+  transition:backgrond 0.3s;
+}
+.btn:hover{
+  background: #ff6347;
+}
+.features{
+  padding: 10px 20px;
+  background:#f9f9f9;
+  text-align:center;
+}
+.features h2{
+  margin-bottom:30px;
+  margin: 10px solid #4678;
+}
+
+.contact{
+  padding:40px 20px;
+  background:#fff;
+}
+.contack h2{
+  text-align:center;
+  margin-bottom:20px;
+}
+#contactform{
+  max-width: 600px;
+  margin:auto;
+}
+.form-group{
+  margin-bottom:20px;
+}
+.form-grouplabel{
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group input,
+.form-group textarea{
+  width:100%;
+  padding:10px;
+  border: 1px solid #ccc;
+  border-radius:5px;
+}
+button.btn{
+  width:100%;
+}
+.footter{
+  background:#333;
+  color:#fff;
+  text-align:center;
+  padding: 30px;
+}
+.footer-container{
+  max-width:1200px;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background:#333;
+  color:white;
+}
+.footer p{
+  margin-bottom:10px;
+  font-size: 14px;
+}
+.social-icons{
+  display:flex;
+  gap:15px;
+}
+.social-icon{
+  color:#fff;
+  font-size:2.5ren;
+  transition:color 0.3s case;
+}
+.social-icon:hover{
+  color:#ff6347;
+}
+.logo-corner img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 50px;
+}
+ .features-item {  
+   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+   cursor:pointer;
+  transition:backgrond 0.3s;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fv));
+  gap:20px;
+  display:grid;
+  padding:10px;
+ border-radius:22px;
+  font-size:8px;
+   
+ }
+ .features-item:hover{
+   color:#ff6347;
+ }
+ 
+</style>
